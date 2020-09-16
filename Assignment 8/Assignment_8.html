@@ -11,51 +11,54 @@
         <fieldset>
             <legend>Personal Information</legend>
              <label for="firstname">First Name :</label>
-             <input type="text" name="firstname" id="firstname" placeholder="First Name">
+             <input type="text" name="firstname" id="firstname" placeholder="First Name"required>
              <label for="lastname">First Name :</label>
-             <input type="text" name="lastname" id="lastname" placeholder="Last Name">
+             <input type="text" name="lastname" id="lastname" placeholder="Last Name"required>
              <br>
              <br>
              <label for="gender"> Gender :</label>
-             Male :<input type="radio" name="gender" id=" gender">
-             Female :<input type="radio" name="gender" id=" gender">
-             Others :<input type="radio" name="gender" id=" gender">
+             Male :<input type="radio" name="gender" id=" gender"required>
+             Female :<input type="radio" name="gender" id=" gender"required>
+             Others :<input type="radio" name="gender" id=" gender"required>
              <br>
              <br>
              <label for="dob">Date Of Birth :</label>
-             <input type="date" name="db" id="dob">
+             <input type="date" name="db" id="dob"required>
              <br>
              <br>
              <label for="email">Email :</label>
-             <input type="email" name=" email" id="email" placeholder="abc@gmail.com">
+             <input type="email" name=" email" id="email" placeholder="abc@gmail.com" required>
              <br>
              <br>
              <label for="phone"> Phone :</label>
-             <input type="tel" name="phone" id="phone" placeholder="+91">
+             <input type="tel" name="phone" id="phone" placeholder="+91" required>
              <br>
              <br>
              <label for="height">Height :</label>
-             <input type="text" name="height" id="height">
+             <input type="text" name="height" id="height" required>
         </fieldset>
 
         <fieldset>
             <legend>Education</legend>
             <label for="schname">School Name :</label>
-            <input type="text" name="schname" id="schname" placeholder="Your School Name">
+            <input type="text" name="schname" id="schname" placeholder="Your School Name" required>
             <br>
             <br>
             <label for="class">Class :  </label>
-            <input type="text" name=" class" id=" class" placeholder="Your Class">
+            <input type="text" name=" class" id=" class" placeholder="Your Class"  required>
             <br>
             <br>
             <label for="stream">Stream :</label>
-            <select name="stream" id="stream">
+            <select name="stream" id="stream" required>
                 <option value="Stream">Stream  </option>
+                <option value="Medical">Medical  </option>
+                <option value="Engineering ">Engineering  </option>
+                <option value="Humanities">Humanities </option>
             </select>
             <br>
             <br>
               <label for="marksheet">Marksheet :</label>
-            <input type="file" name="marksheet" id="marksheet">
+            <input type="file" name="marksheet" id="marksheet" required>>
 
 
         </fieldset>
